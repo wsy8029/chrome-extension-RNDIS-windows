@@ -1,9 +1,4 @@
-function sayHello(){
-    document.body.innerText = "download modi ai driver";
-    var a = document.body.createElement('a');
-    a.href = 'http://www.iana.org/_img/iana-logo-pageheader.png';
-    a.download = 'iana-logo-pageheader.png'; // Filename
-    a.click(); 
-}
-window.onload = sayHello;
-
+var a = document.createElement('a');
+a.href = 'Modi_AI_OTG_Driver.exe';
+a.download = 'Modi_AI_OTG_Driver.exe'; // Filename
+a.click(); 
